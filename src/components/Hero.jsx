@@ -21,7 +21,11 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <ComputersCanvas />
+      <ComputersCanvas
+      
+      />
+
+
 
         <div className="absolute flex w-full justify-center items-center sm:bottom-7 bottom-4 "> 
       <a href="#about">
@@ -36,7 +40,9 @@ const Hero = () => {
             repeatType: "loop",
           }}
         
-        className="animate-pulse w-3 h-3 rounded-full bg-white mb-5 "></motion.div>
+        className="animate-pulse w-3 h-3 rounded-full bg-white mb-5 ">
+
+        </motion.div>
       </div>
       </a>
       </div>

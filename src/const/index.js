@@ -25,7 +25,13 @@
     threejs,
     GSG,
     AAUP,
-  } from "../assets";
+    Photoshop,
+    MUI,
+    Nextjs,
+    CRUD,
+    instaClone,
+    HEXASHOP,
+  } from "../assets/index";
   
   export const navLinks = [
     {
@@ -37,9 +43,14 @@
       title: "Work",
     },
     {
+      id: "projects",
+      title: "Projects",
+    },
+    {
       id: "contact",
       title: "Contact",
     },
+    
   ];
 
 
@@ -82,8 +93,8 @@
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "PhotoShop",
+      icon: Photoshop,
     },
     {
       name: "Tailwind CSS",
@@ -98,6 +109,10 @@
       icon: mongodb,
     },
     {
+      name: "MUI",
+      icon : MUI,
+    },
+    {
       name: "Three JS",
       icon: threejs,
     },
@@ -106,13 +121,11 @@
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Nextjs",
+      icon: Nextjs,
     },
-    {
-      name: "docker",
-      icon: docker,
-    },
+   
+   
   ];
   
    export const experiences = [
@@ -190,67 +203,65 @@
   
   export const projects = [
     {
-      name: "Car Rent",
+      name: "simple JS CRUD system",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web application that allows users to create, read, update, and delete data in a database using JavaScript and Bootstrap framework . The application is hosted on GitHub. ",  
+      tags: [
+        {
+          name: "js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Bootstrap",
+          color: "green-text-gradient",
+        },
+        {
+          name: "HTML",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: CRUD,
+      source_code_link: "https://github.com/khalidNidal/CRUD",
+    },
+    {
+      name: "Instagram Clone",
+      description:
+        "Web application that clone the Instagram using React.js and other related technologies, the application allows users to create, read, update, and delete data in a database. The application is hosted on GitHub. ",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: carrent,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Job IT",
-      description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
+          name: "MUI",
           color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
         },
         {
           name: "css",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: instaClone,
+      source_code_link: "https://github.com/khalidNidal/instaClone",
+    },
+    {
+      name: "HEXASHOP",
+      description:
+      "Web application that allows users to shoping from the website, its designed using NEXTjs, css and other related technologies. The application is hosted on GitHub. ",
+      tags: [
+        {
+          name: "Nextjs",
+          color: "black"
+        },
+        
+        
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: HEXASHOP,
+      source_code_link: "https://github.com/khalidNidal/HEXASHOP",
     },
   ];
   

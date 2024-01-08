@@ -6,7 +6,8 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-
+import Photoshop from "./tech/Photoshop.png";
+import MUI from "./tech/MUI.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -31,6 +32,10 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import GSG from "./company/GSG.jpeg";
 import AAUP from "./company/AAUP.jpg";
+import Nextjs from "./tech/Nextjs.png";
+import CRUD from "./CRUD.png";
+import instaClone from "./instaClone.jpg";
+import HEXASHOP from "./HEXASHOP.png"
 
 
 export {
@@ -64,4 +69,10 @@ export {
   tripguide,
   GSG,
   AAUP,
+  Photoshop,
+  MUI,
+  Nextjs,
+  CRUD,
+  instaClone,
+  HEXASHOP,
 };
