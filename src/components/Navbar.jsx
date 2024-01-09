@@ -41,7 +41,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={"../../public/logo.png"} alt='logo' className='w-9 h-9 object-contain' />
+          <img src={"public/logo.png"} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer  '>
              Khalid Nidal&nbsp; 
             <span className='sm:block hidden'> | Front-End develpoer</span>
