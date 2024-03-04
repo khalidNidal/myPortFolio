@@ -55,16 +55,10 @@ const About = () => {
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview</h2>
         <motion.p className="text-secondary text-[17px] max-w-5xl  leading-[30px] ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          eius debitis velit ipsa recusandae fuga a ratione? Assumenda soluta
-          ratione eius. At, vel cum! Pariatur corporis in eveniet quasi
-          cupiditate.Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          eius debitis velit ipsa recusandae fuga a ratione? Assumenda soluta
-          ratione eius. At, vel cum! Pariatur corporis in eveniet quasi
-          cupiditate.Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-          eius debitis velit ipsa recusandae fuga a ratione? Assumenda soluta
-          ratione eius. At, vel cum! Pariatur corporis in eveniet quasi
-          cupiditate.
+         Hello! I'm a passionate Frontend Web Developer specializing in React and Next.js. With a knack for creating interactive and dynamic user interfaces, I leverage the power of React's reusable components for efficient development. I also utilize Next.js for server-side rendering and generating static websites, optimizing my applications for both performance and SEO.
+
+My journey in web development has been driven by my desire to create seamless and user-friendly web experiences. I'm always eager to learn and adapt to new technologies and trends in the ever-evolving world of web development. I look forward to bringing my skills and dedication to new and exciting projects.
+
         </motion.p>
         
         <div className="flex flex-wrap gap-10 mt-10  w-fit ml-auto    ">
